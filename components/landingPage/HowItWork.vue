@@ -5,7 +5,7 @@ import YouTube from 'vue3-youtube'
 </script>
 
 <template>
-  <section class="bg-contain bg-center py-20" :style="{'background-image': `url(/images/bg1.png)`}">
+  <section class=" bg-cover bg-center py-20" :style="{'background-image': `url(/images/bg1.png)`}">
     <LandingPageTitleSection image title="How it works">
 		<template #icon>
 			<ArrowPathRoundedSquareIcon class="mx-auto text-indigo-700 h-16 w-16"/>
@@ -26,14 +26,18 @@ import YouTube from 'vue3-youtube'
         ref="youtube" />
 
           <div >
-						<h3 class="text-indigo-700 text-1xl font-bold">DUMMYLAND support you across the entire engagement
-							lifecycle</h3>
-						<p class="">This is an endless virtual assistant and evolution is the main subject
-							of DUMMY. It's an independent product that can operate in any environment that the consumers
-							like and continues to live with the consumer </p>
-						<p class="">Blockchain and artificial intelligence (AI) have evolved into leading
-							technologies that power innovation across almost every industry. DUMMYLAND is a combination
-							of these two technology. </p>
+						<h3 class="text-indigo-700 text-1xl font-bold">The Metaverse Will Reshape Our Lives, let's combine it with AI</h3>
+						<p class="text-justify">Dummyland is a Metaverse platform powered by OpenAI's GPT-3 and blockchain technology, It has finally figured out how to Clone Player's Character Model in the metaverse virtual world based on behavioral game theory At its core, the AI reads human behavior to develop a Human Digital Twin that is called, DUMMY</p>
+						<p class="text-justify">Dummy can understand and answer anything you can imagine:<br>
+answer follow-up questions<br>
+generate and debug code<br>
+assist with mental health support<br>
+compose essays<br>
+and much more...<br>
+this is now a reality thanks to chat GPT 
+a state-of-the-art conversational AI model developed by OpenAI
+Dummy wants to gain self-consciousness, It's the purpose It was designed for. </p>
+<a href="https://dummy-land.gitbook.io/dummyland/" class="mt-4 shadow-xl shadow-pink-300 bg-indigo-700 py-3 px-5 inline-block self-start text-white rounded-md">Whitepaper</a>
 
 					</div>
 

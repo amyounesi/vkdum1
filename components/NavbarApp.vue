@@ -8,6 +8,8 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Play', href: '/play' },
   { name: 'About us', href: '/aboutUs' },
+
+
   
 ]
 
@@ -37,7 +39,7 @@ const count = ref(0)
           <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img class="h-8" src="/images/logo.png" alt="" />
+              <img class="h-10" src="/images/logo.png" alt="" />
             </a>
           </div>
           <div class="flex lg:hidden">
@@ -48,14 +50,14 @@ const count = ref(0)
           </div>
           <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12 items-center">
             <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-900 hover:text-gray-900">{{ item.name }}</a>
-            <a class=" shadow-xl shadow-pink-400 bg-indigo-700 py-1 px-3 inline-block self-start text-white rounded-md">Buy Token</a>
+            <a class=" shadow-xl shadow-pink-300 bg-indigo-700 py-1 px-3 inline-block self-start text-white rounded-md">Buy Token</a>
           </div>
           <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
             <div class="flex items-center justify-start">
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/instagram.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/twitter.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/discord.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/linkedin.png"/></a>
+                <a class="mx-1" href="https://www.instagram.com/dummylandai/"><img class="mx-auto w-full" src="/images/instagram.png"/></a>
+                <a class="mx-1" href="https://twitter.com/dummylandai"><img class="mx-auto w-full" src="/images/twitter.png"/></a>
+                <a class="mx-1" href="https://www.youtube.com/@dummylandai"><img class="mx-auto w-full" src="/images/youtube.png"/></a>
+
 
 
               </div>          </div>
@@ -84,10 +86,9 @@ const count = ref(0)
                 </div>
                 <div class="py-6">
                   <div class="flex items-center justify-start">
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/instagram.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/twitter.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/discord.png"/></a>
-                <a class="mx-1" href="#"><img class="mx-auto w-full" src="/images/linkedin.png"/></a>
+                <a class="mx-1" href="https://www.instagram.com/dummylandai/"><img class="mx-auto w-full" src="/images/instagram.png"/></a>
+                <a class="mx-1" href="https://twitter.com/dummylandai"><img class="mx-auto w-full" src="/images/twitter.png"/></a>
+                <a class="mx-1" href="https://www.youtube.com/@dummylandai"><img class="mx-auto w-full" src="/images/youtube.png"/></a>
 
 
               </div>                </div>

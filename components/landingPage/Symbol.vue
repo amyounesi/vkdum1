@@ -39,10 +39,8 @@ function mousemove (e) {
 				</div>
 			
 				<div class="text-center">
-					<img class="mx-auto mb-4" src="/images/logo.png">
-					<h1 class="text-3xl font-bold text-indigo-700">Play, Psychoanalysis &amp; Earn
-						in the Metaverse Powered by GPT-3</h1>
-					<p class="text-xl text-center text-slate-500">AI &amp; BSC &amp; IOT</p>
+					<h1 class="text-3xl font-bold text-indigo-700">Human Digital Twin on the Metaverse</h1>
+					<p class="text-xl text-center text-slate-500">AI &amp; BSC &amp; VR</p>
 				</div>
 			</div>
 

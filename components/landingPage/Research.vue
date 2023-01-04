@@ -46,21 +46,21 @@ const options = ref([
             </ul>
             <div class="flex flex-col">
                 <div class="flex items-center mb-3">
-                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-800 rounded-full border-4 border-white mr-3"></span>
+                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-300 rounded-full border-4 border-white mr-3"></span>
                     <strong class="text-indigo-700">Developing</strong>
                 </div>
                 <div class="flex items-center mb-3">
-                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-800 rounded-full border-4 border-white mr-3"></span>
+                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-300 rounded-full border-4 border-white mr-3"></span>
                     <strong class="text-indigo-700">Researching</strong>
                 </div>
                 <div class="flex items-center mb-3">
-                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-800 rounded-full border-4 border-white mr-3"></span>
+                    <span class="w-6 h-6 bg-indigo-700 shadow-xl shadow-pink-300 rounded-full border-4 border-white mr-3"></span>
                     <strong class="text-indigo-700">Innovating</strong>
                 </div>
                 <p class="text-sm text-slate-500">
                     Let's start a conversation
             </p>
-            <a href="#" class="mt-4 shadow-xl shadow-pink-400 bg-indigo-700 py-3 px-5 inline-block self-start text-white rounded-md">Join us</a>
+            <a href="#" class="mt-4 shadow-xl shadow-pink-300 bg-indigo-700 py-3 px-5 inline-block self-start text-white rounded-md">Join us</a>
 
             </div>
             
