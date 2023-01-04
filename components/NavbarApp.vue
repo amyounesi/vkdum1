@@ -7,7 +7,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Play', href: '/play' },
-  { name: 'About us', href: '/aboutUs' },
+  { name: 'About us', href: '/about' },
+  { name: 'Contact', href: '/contact' },
 
 
   
@@ -49,7 +50,9 @@ const count = ref(0)
             </button>
           </div>
           <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12 items-center">
-            <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-900 hover:text-gray-900">{{ item.name }}</a>
+            <nuxtLink v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-900 hover:text-gray-900">
+              {{ item.name }}
+            </nuxtLink>
             <a class=" shadow-xl shadow-pink-300 bg-indigo-700 py-1 px-3 inline-block self-start text-white rounded-md">Buy Token</a>
           </div>
           <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
